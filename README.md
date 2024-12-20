@@ -29,9 +29,13 @@
 
 Clerk is a developer-first authentication and user management solution. It provides pre-built React components and hooks for sign-in, sign-up, user profile, and organization management. Clerk is designed to be easy to use and customize, and can be dropped into any Vue application.
 
-After following the quickstart you'll have learned how to:
+After following the quickstart, you'll have learned how to:
 
-- TBD
+- Create a new Vue app using Vite
+- Install `@clerk/vue`
+- Set your Clerk API keys
+- Add `clerkPlugin`
+- Create a header with Clerk components
 
 ## Deploy
 
@@ -64,7 +68,7 @@ To learn more about Clerk and Vue, check out the following resources:
 - [Quickstart: Get started with Vue and Clerk](https://clerk.com/docs/quickstarts/vue?utm_source=DevRel&utm_medium=docs&utm_campaign=templates&utm_content=10-24-2023&utm_term=clerk-vue-quickstart)
 
 - [Clerk Documentation](https://clerk.com/docs?utm_source=DevRel&utm_medium=docs&utm_campaign=templates&utm_content=10-24-2023&utm_term=clerk-vue-quickstart)
-- [Vue Documentation](https://vuejs.org)
+- [Vue Documentation](https://vuejs.org/guide/introduction.html)
 
 ## Found an issue or want to leave feedback
 

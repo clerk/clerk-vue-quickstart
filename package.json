@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@clerk/vue": "^1.0.0",
+    "@clerk/vue": "^1.0.1",
     "vue": "^3.5.12"
   },
   "devDependencies": {

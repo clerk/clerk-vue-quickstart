@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import { SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/vue'
+import { SignInButton, Show, UserButton } from '@clerk/vue'
 </script>
 
 <template>
   <header>
-    <SignedOut>
+    <Show when="signed-out">
       <SignInButton />
-    </SignedOut>
-    <SignedIn>
+    </Show>
+    <Show when="signed-in">
       <UserButton />
-    </SignedIn>
+    </Show>
   </header>
 </template>

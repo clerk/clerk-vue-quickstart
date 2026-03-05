@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@clerk/vue':
-        specifier: 2.0.0-canary.v20260217172217
-        version: 2.0.0-canary.v20260217172217(vue@3.5.28(typescript@5.9.3))
+        specifier: 2.0.1
+        version: 2.0.1(vue@3.5.28(typescript@5.9.3))
       vue:
         specifier: ^3.5.22
         version: 3.5.28(typescript@5.9.3)
@@ -50,8 +50,8 @@ packages:
     resolution: {integrity: sha512-LwdZHpScM4Qz8Xw2iKSzS+cfglZzJGvofQICy7W7v4caru4EaAmyUuO6BGrbyQ2mYV11W0U8j5mBhd14dd3B0A==}
     engines: {node: '>=6.9.0'}
 
-  '@clerk/shared@4.0.0-canary.v20260217172217':
-    resolution: {integrity: sha512-ETeHa67EynsMr6UA3eAwXbVFx3GQF+JGsCanDfUT2SFsiqBUQaqH2WceVuNx91/8wdKqHL4Nqase1KWL9Tj60A==}
+  '@clerk/shared@4.0.0':
+    resolution: {integrity: sha512-Z3QhVud7FM9SBgSGxyUdC+nDg6vro+5zJ5gDO1To3FDzRLWKW4xIGd5y8UBqWZMMMHWaSDiZvYlUynb+gs8PnQ==}
     engines: {node: '>=20.9.0'}
     peerDependencies:
       react: ^18.0.0 || ~19.0.3 || ~19.1.4 || ~19.2.3 || ~19.3.0-0
@@ -62,8 +62,8 @@ packages:
       react-dom:
         optional: true
 
-  '@clerk/vue@2.0.0-canary.v20260217172217':
-    resolution: {integrity: sha512-XJJP0/fB8rKCIhJAttX+5oP6liosaWmpLvcPsZgydlCt0kM2IZTiMFj3ue5I8gvX8cQvRjCVd3rBtMR8TZWTKw==}
+  '@clerk/vue@2.0.1':
+    resolution: {integrity: sha512-isLLGs1Pd9JjvDrQak9kHR06TZ6RT9/KYUr5W2m9BZXTAY44NZqCCkTZ06E83//0G9dlEuBPO2sjMYcpdgR6hA==}
     engines: {node: '>=20.9.0'}
     peerDependencies:
       vue: ^3.2.0
@@ -575,7 +575,7 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
 
-  '@clerk/shared@4.0.0-canary.v20260217172217':
+  '@clerk/shared@4.0.0':
     dependencies:
       '@tanstack/query-core': 5.90.16
       dequal: 2.0.3
@@ -583,9 +583,9 @@ snapshots:
       js-cookie: 3.0.5
       std-env: 3.10.0
 
-  '@clerk/vue@2.0.0-canary.v20260217172217(vue@3.5.28(typescript@5.9.3))':
+  '@clerk/vue@2.0.1(vue@3.5.28(typescript@5.9.3))':
     dependencies:
-      '@clerk/shared': 4.0.0-canary.v20260217172217
+      '@clerk/shared': 4.0.0
       vue: 3.5.28(typescript@5.9.3)
     transitivePeerDependencies:
       - react
